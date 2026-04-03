@@ -1,0 +1,25 @@
+# Data files (large / copyrighted)
+data/songs/
+data/processed_songs/
+data/queries/
+data/database/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
