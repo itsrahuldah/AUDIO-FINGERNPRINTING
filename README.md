@@ -1,4 +1,4 @@
-# 🎵 Audio Fingerprinting System
+# Audio Fingerprinting System
 
 An implementation of the Shazam audio recognition algorithm based on the seminal paper:
 
