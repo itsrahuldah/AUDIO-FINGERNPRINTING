@@ -152,6 +152,10 @@ The system achieves:
 2. Haitsma, J. and Kalker, A., "A Highly Robust Audio Fingerprinting System", ISMIR 2002, pp. 107-115.
 3. Yang, C., "MACS: Music Audio Characteristic Sequence Indexing For Similarity Retrieval", IEEE WASPAA, 2001.
 
+## Video Explanation on YouTube
+The video explanation of the Shazam algorithm can be accessed on YouTube here:<br>
+https://youtu.be/BTwkqNeb3HA?si=WrsdnJ20B06Am7ef
+
 ## Author
 
 **Rahul Prashanth**  
