@@ -18,7 +18,7 @@ def load_audio(file_path: str, target_sr: int = 22050, duration: float = None, o
         sr: The sample rate.
     """
     try:
-        # librosa handles MP3/WAV, auto-converts to mono (mono=True by default) and resamples.
+        # librosa handles MP3/WAV, auto-converts to mono (mono=True by default) and resamples..
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
             # Using librosa.load gives us float32 [-1.0, 1.0] samples natively
