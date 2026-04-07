@@ -155,7 +155,8 @@ The system achieves:
 ## Author
 
 **Rahul Prashanth**  
-GitHub: [itsrahuldah](https://github.com/itsrahuldah)
+GitHub: [itsrahuldah](https://github.com/itsrahuldah)  
+
 **Tasmay Kaushik Tokarkar**
 GitHub: [tasmay566](https://github.com/tasmay566)
 
