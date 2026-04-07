@@ -53,7 +53,7 @@ class TestDSPValidation(unittest.TestCase):
         peaks_shifted = [(f, t + shift) for f, t in peaks_orig]
         hashes_shifted = generate_hashes(peaks_shifted, target_zone_fw=20, target_zone_freq=100, fan_out=5, min_time_delta=1)
         
-        # The hash values MUST be identical, but the absolute times are shifted by 50
+        # The hash values MUST be identical, but the absolute times are shifted by 50.
         self.assertGreater(len(hashes_orig), 0)
         for (h1, t1), (h2, t2) in zip(hashes_orig, hashes_shifted):
             self.assertEqual(h1, h2)
@@ -70,7 +70,7 @@ class TestDSPValidation(unittest.TestCase):
         
         best_song_id, best_offset, max_votes = match_hashes(query_hashes, db)
         
-        # Song A id is 1. Expected offset = db_offset (100) - query_offset (90) = 10
+        # Song A id is 1. Expected offset = db_offset (100) - query_offset (90) = 10.
         self.assertEqual(best_song_id, 1)
         self.assertEqual(best_offset, 10)
         self.assertEqual(max_votes, 3)
